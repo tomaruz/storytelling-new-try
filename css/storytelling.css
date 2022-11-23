@@ -270,6 +270,22 @@ h5 {
     opacity: 0;
 }
 
+/* this will only be applied when both classes are present */
+.scrolled.fade-in3 {
+    animation: fade-in ease-in-out 1s both;
+    animation-delay: 2.6s;
+}
+
+/* keyframe animations */
+@keyframes fade-in3 {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
 
 /* this will only be applied when both classes are present */
 .scrolled.fade-in {
