@@ -509,6 +509,19 @@ h6 {
 
 #flashback-image {
     width: 1920px;
+    height: 4720px;
+}
+
+#flashback1 {
+    width: 1920px;
+    height: 3564px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0a0a3f;
+}
+
+#flashback-image1 {
+    width: 1920px;
     height: 4715px;
 }
 
@@ -544,4 +557,18 @@ h6 {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#smaller-padding {
+    padding-top: 350px;
+}
+
+
+#arrow-button2 {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 95rem;
+
 }
