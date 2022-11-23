@@ -66,6 +66,14 @@ h3 {
     line-height: 3.5rem;
 }
 
+#h3-modifications {
+    color: #efefef;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-top: 0px;
+}
+
 #scroll-down-arrow {
     width: 30px;
     padding-top: 10px;
@@ -74,6 +82,26 @@ h3 {
 #intro-fact {
     position: relative;
     height: 1300px;
+    width: 1920px;
+    padding-top: 0;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0a0a3f;
+}
+
+#all-wrong-final-page-section1 {
+    position: relative;
+    height: 100rem;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0a0a3f;
+}
+
+#all-wrong-final-page-section2 {
+    position: relative;
+    height: 1000px;
     width: 1920px;
     padding-top: 0;
     padding-bottom: 200px;
@@ -141,6 +169,13 @@ h3 {
     margin-left: 635px;
 }
 
+#noah-tired2 {
+    position: absolute;
+    padding-top: 90px;
+    width: 650px;
+    margin-left: 635px;
+}
+
 #start-button {
     position: absolute;
     left: 45%;
@@ -200,6 +235,11 @@ h2 {
 .line-top1 {
     width: 500px;
     margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+.line-top3 {
+    width: 500px;
+    margin-top: 25rem;
     margin-bottom: 3rem;
 }
 
@@ -425,13 +465,83 @@ h5 {
     background-color: #0a0a3f;
 }
 
+#page5 {
+    position: relative;
+    height: 3500px;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0a0a3f;
+}
+
+#page6 {
+    position: relative;
+    height: 1820px;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0a0a3f;
+}
+
 h6 {
     color: #efefef;
     text-align: center;
     font-family: 'montserrat', sans-serif;
     font-size: 2.5rem;
     line-height: 3.5rem;
-    padding-top: 35rem;
+    padding-top: 38rem;
     padding-bottom: 5rem;
     font-weight: 600;
+}
+
+#h6-modifications {
+    padding-top: 20rem;
+    padding-bottom: 0;
+}
+
+#flashback {
+    width: 1920px;
+    height: 4720px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0a0a3f;
+}
+
+#flashback-image {
+    width: 1920px;
+    height: 4715px;
+}
+
+.line-top2 {
+    width: 500px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.line-bottom2 {
+    width: 500px;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+/*this will only be applied when both classes are present*/
+.scrolled.shake {
+    animation: shake 0.5s;
+    animation-iteration-count: 20;
+    opacity: 1;
+}
+
+/* keyframe animations */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
